@@ -4,7 +4,11 @@ import com.achilles.pojo.SessionInfo;
 
 public class SessionInfoBuilder {
 
-	SessionInfo sessionInfo = new SessionInfo();
+	public void buildSessionInfo(){
+		SessionInfo sessionInfo = new SessionInfo();
+		//sessionInfo.setSessionId(System.getProperties());
+	}
+	
 	
 	
 
